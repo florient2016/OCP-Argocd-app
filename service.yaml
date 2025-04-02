@@ -1,0 +1,11 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: activities-service
+  namespace: dev
+spec:
+  selector:
+    app: activities
+  ports:
+    - port: 80
+      targetPort: 80
