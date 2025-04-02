@@ -15,7 +15,7 @@ spec:
     spec:
       containers:
         - name: activities
-          image: docker.io/komlan2019/activities:latest
+          image: docker.io/komlan2019/activities:842eb15f785b5ec6d9f3f4f864bbe1b56382a2e8
           ports:
             - containerPort: 80
           resources:
