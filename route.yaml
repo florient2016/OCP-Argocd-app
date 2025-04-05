@@ -4,8 +4,12 @@ metadata:
   name: activities-route
   namespace: dev
 spec:
+  host: portfolio.florientdogbe.me
   to:
     kind: Service
     name: activities-service
   port:
     targetPort: 80
+  tls:
+    termination: edge
+  
